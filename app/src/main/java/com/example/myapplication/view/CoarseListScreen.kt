@@ -35,7 +35,7 @@ fun CourseListScreen(courses: List<Course>) {
     ) { innerPadding ->
         LazyColumn(
             contentPadding = PaddingValues(
-                top = innerPadding.calculateTopPadding() + 28.dp, // Adds space below AppBar
+                top = innerPadding.calculateTopPadding() + 24.dp,
                 bottom = innerPadding.calculateBottomPadding()
             ),
             modifier = Modifier
